@@ -1,0 +1,12 @@
+
+
+In a dict, accessing value associated with a key that is not present leads to a KeyError exception. However, a collecitons.defaultdict returns the default value oft hetype that was specified whe n the collection was inwtantiated. if d = collections.defaultdict(list), then if k not in d then d[k] is []. A collections.Counter is used for counting the nubmer of occurrences of keys, with a numbrer of set-like oeprations, as illustarted below
+
+c = collections.Counter(a=3, b=1)
+d = collections.Counter(a=1, b=2)
+
+# add two counts tgt, c[x] + d[x], collections.Counter({'a': 4, 'b':3})
+
+c + d
+subtrace
+
